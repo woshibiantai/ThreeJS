@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>button</title>
+    <style media="screen">
+      body {
+        background-color: rgb(253,24,47);
+      }
+      #presentationBtn {
+        font-family: 'FlamaCondensed-Medium';
+        font-size: 8.8vh;
+        color:white;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="#trigger"> tap here </div>
+    <script type="text/javascript">
+      function triggered() {
+        
+        var startPresentation = document.createElement('span');
+        startPresentation.id = 'presentationBtn';
+        startPresentation.innerHTML = "Tap Here";
+      }
+    </script>
+  </body>
+</html>
